@@ -2,13 +2,13 @@ import React from 'react';
 import './Resources.css'
 import profile from '../../assets/profile.jpg'
 import { IoIosSettings } from "react-icons/io";
-import { FaBookOpen, FaInstagram, FaInstagramSquare, FaLaptopCode, FaPodcast, FaTwitter } from 'react-icons/fa'
+import { FaBookOpen, FaInstagramSquare, FaLaptopCode, FaPodcast, } from 'react-icons/fa'
 import { FaPhoneAlt, FaEnvelope, FaGlobe } from 'react-icons/fa';
-import { CiLocationOn } from "react-icons/ci";
+
 import { IoLocationSharp } from "react-icons/io5";
 import { FaCogs, FaUserTie, FaBullhorn, FaChartLine, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import logo from '../../assets/footer-logo2.jpg'
-import { FaX, FaXTwitter } from 'react-icons/fa6';
+import { FaXTwitter } from 'react-icons/fa6';
 const Resources = () => {
   return (
     <>
@@ -203,23 +203,22 @@ const Resources = () => {
             <div className="col-md-6">
               <div className="cta-box  d-flex flex-column justify-content p-4">
                 <h6 className="text-white mb-3 fs-2 fw-bold text-justify">
-               
+
                   Level Up Your Brand
                 </h6>
-                <p className="text-white mb-3 fs-4 fw-semi text-justify">Find Out how much demand<br/>There is in your geographical<br/>area</p>
-                
-                  <button className="btn btn-danger rounded" type="submit">
-                   <p className="text-white mb-3 fs-4 fw-semi text-center">Book a Free Consultation</p>
-                  </button>
-                
-              </div>
-            </div>
+                <p className="text-white mb-3 fs-4 fw-semi text-justify">Find Out how much demand<br />There is in your geographical<br />area</p>
 
-            <div className="col-md-6 ">
-              <div className='last-image'>
+                <button className="btn btn-danger rounded" type="submit">
+                  <p className="text-white mb-3 fs-4 fw-semi text-center">Book a Free Consultation</p>
+                </button>
 
               </div>
             </div>
+            <div className="col-md-6 last-image">
+
+            </div>
+
+
           </div>
         </div>
 
@@ -230,85 +229,85 @@ const Resources = () => {
 
 
 
-<footer className="footer bg-black text-white pt-5 pb-3 mt-5">
-  <div className="container">
-    <div className="row text-center text-md-start">
+      <footer className="footer bg-black text-white pt-5 pb-3 mt-5">
+        <div className="container">
+          <div className="row text-center text-md-start">
 
-      {/* Logo Column */}
-      <div className="col-md-3 mb-4">
-  <img
-    src={logo}
-    alt="Astonish Laws Logo"
-    className="img-fluid"
-    style={{ maxWidth: '150px' }}
-  />
-</div>
+            {/* Logo Column */}
+            <div className="col-md-3 mb-4">
+              <img
+                src={logo}
+                alt="Astonish Laws Logo"
+                className="img-fluid"
+                style={{ maxWidth: '150px' }}
+              />
+            </div>
 
 
-      {/* Useful Links */}
-      <div className="col-md-3 mb-4">
-        <h6 className="fw-bold mb-3 fs-4">Useful Links</h6>
-        <ul className="list-unstyled">
-          <li><a href="#" className="text-white text-decoration-none">Home</a></li>
-          <li><a href="#" className="text-white text-decoration-none">About Us</a></li>
-          <li><a href="#" className="text-white text-decoration-none">Our Blogs</a></li>
-        </ul>
-      </div>
+            {/* Useful Links */}
+            <div className="col-md-3 mb-4">
+              <h6 className="fw-bold mb-3 fs-4">Useful Links</h6>
+              <ul className="list-unstyled">
+                <li><a href="#" className="text-white text-decoration-none">Home</a></li>
+                <li><a href="#" className="text-white text-decoration-none">About Us</a></li>
+                <li><a href="#" className="text-white text-decoration-none">Our Blogs</a></li>
+              </ul>
+            </div>
 
-      {/* Our Portfolio */}
-      <div className="col-md-3 mb-4">
-        <h6 className="fw-bold mb-3 fs-4">Our Portfolio</h6>
-        <ul className="list-unstyled">
-          <li><a href="#" className="text-white text-decoration-none">Our Clients</a></li>
-          <li><a href="#" className="text-white text-decoration-none">Case Studies</a></li>
-          <li><a href="#" className="text-white text-decoration-none">Success</a></li>
-        </ul>
-      </div>
+            {/* Our Portfolio */}
+            <div className="col-md-3 mb-4">
+              <h6 className="fw-bold mb-3 fs-4">Our Portfolio</h6>
+              <ul className="list-unstyled">
+                <li><a href="#" className="text-white text-decoration-none">Our Clients</a></li>
+                <li><a href="#" className="text-white text-decoration-none">Case Studies</a></li>
+                <li><a href="#" className="text-white text-decoration-none">Success</a></li>
+              </ul>
+            </div>
 
-{/* Contact Info */}
-<div className="col-md-3 mb-4">
-  <h6 className="fw-bold mb-3 fs-4">Contact Information</h6>
+            {/* Contact Info */}
+            <div className="col-md-3 mb-4">
+              <h6 className="fw-bold mb-3 fs-4">Contact Information</h6>
 
-  <div className="d-flex align-items-center mb-2">
-    <IoLocationSharp className="me-2"/>
-    
-    <span>121 Street, Vijayawada, AP</span>
-  </div>
+              <div className="d-flex align-items-center mb-2">
+                <IoLocationSharp className="me-2" />
 
-  <div className="d-flex align-items-center mb-2">
-    <FaPhoneAlt className="me-2" />
-    <span>+91-69944-9223</span>
-  </div>
+                <span>121 Street, Vijayawada, AP</span>
+              </div>
 
-  <div className="d-flex align-items-center mb-2">
-    <FaEnvelope className="me-2" />
-    <span>info@astonish.com</span>
-  </div>
+              <div className="d-flex align-items-center mb-2">
+                <FaPhoneAlt className="me-2" />
+                <span>+91-69944-9223</span>
+              </div>
 
-  <div className="d-flex align-items-center">
-    <FaGlobe className="me-2" />
-    <span>www.astonishlaw.com</span>
-  </div>
-</div>
-<hr style={{ borderTop: '4px solid white' }} />
+              <div className="d-flex align-items-center mb-2">
+                <FaEnvelope className="me-2" />
+                <span>info@astonish.com</span>
+              </div>
 
-    </div>
+              <div className="d-flex align-items-center">
+                <FaGlobe className="me-2" />
+                <span>www.astonishlaw.com</span>
+              </div>
+            </div>
+            <hr style={{ borderTop: '4px solid white' }} />
 
-    
+          </div>
 
-    <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mx-5 mt-3">
-      <p className="mb-0 text-white">
-        © 2025 Powered by <span className="text-purple">DigiSphere</span>
-      </p>
-      <div className="d-flex gap-3 mt-3 mt-md-0">
-        <FaFacebookF className="text-white" />
-        <FaLinkedinIn className="text-white" />
-        <FaInstagramSquare className="text-white" />
-        <FaXTwitter className="text-white" />
-      </div>
-    </div>
-  </div>
-</footer>
+
+
+          <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mx-5 mt-3">
+            <p className="mb-0 text-white">
+              © 2025 Powered by <span className="text-purple">DigiSphere</span>
+            </p>
+            <div className="d-flex gap-3 mt-3 mt-md-0">
+              <FaFacebookF className="text-white" />
+              <FaLinkedinIn className="text-white" />
+              <FaInstagramSquare className="text-white" />
+              <FaXTwitter className="text-white" />
+            </div>
+          </div>
+        </div>
+      </footer>
 
 
 
