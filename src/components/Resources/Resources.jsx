@@ -4,7 +4,6 @@ import profile from '../../assets/profile.jpg'
 import { IoIosSettings } from "react-icons/io";
 import { FaBookOpen, FaInstagramSquare, FaLaptopCode, FaPodcast, } from 'react-icons/fa'
 import { FaPhoneAlt, FaEnvelope, FaGlobe } from 'react-icons/fa';
-
 import { IoLocationSharp } from "react-icons/io5";
 import { FaCogs, FaUserTie, FaBullhorn, FaChartLine, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import logo from '../../assets/footer-logo2.jpg'
@@ -157,30 +156,28 @@ const Resources = () => {
             This program does something a little different. It takes a block of text as input and works out the proportion
             of characters within the text according to a chosen order. For example, an order of 2 means the program looks
             at pairs of letters, an order of 3 means triplets of letters, and so on.
-            <p>The software can regurgitate random
+            <p className="text-justify text-secondary mt-1">A computer program can easily produce gibberish — especially if it has been provided with garbage beforehand.
+            This program does something a little different. It takes a block of text as input and works out the proportion
+            of characters within the text according to a chosen order. For example, an order of 2 means the program looks
+            at pairs of letters, an order of 3 means triplets of letters</p>
+            <p className="text-justify text-secondary mt-1">
+              A computer program can easily produce gibberish — especially if it has been provided with garbage beforehand.
+            This program does something a little different. It takes a block of text as input and works out the proportion
+            of characters within the text according to a chosen order. For example, an order of 2 means the program looks
+            at pairs of letters, an order of 3 means triplets of letters
+            </p>
+            <p className="text-justify text-secondary mt-1">
+              The software can regurgitate random
+              text that is controlled by the proportion of characters. The results can be quite surprising. 0 order produces
+              random text based on the proportion of letters within the input text, 2nd order produces gibberish — 6th order
+              and above can often be meaninglessly readable.
+            </p>
+            <p className="text-justify text-secondary mt-1">The software can regurgitate random
               text that is controlled by the proportion of characters. The results can be quite surprising. 0 order produces
               random text based on the proportion of letters within the input text, 2nd order produces gibberish — 6th order
               and above can often be meaninglessly readable.</p>
-            <p>
-              This program does something a little different. It takes a block of text as input and works out the proportion
-              of characters within the text according to a chosen order.
-            </p>
-            <p>
-              This program does something a little different. It takes a block of text as input and works out the proportion
-              of characters within the text according to a chosen order.
-            </p>
-            <p>The software can regurgitate random
-              text that is controlled by the proportion of characters. The results can be quite surprising. 0 order produces
-              random text based on the proportion of letters within the input text, 2nd order produces gibberish — 6th order
-              and above can often be meaninglessly readable.</p>
-            <p>
-              This program does something a little different. It takes a block of text as input and works out the proportion
-              of characters within the text according to a chosen order.
-            </p>
-            <p>
-              This program does something a little different. It takes a block of text as input and works out the proportion
-              of characters within the text according to a chosen order.
-            </p>
+            
+            
 
 
 
@@ -194,7 +191,7 @@ const Resources = () => {
             This program does something a little different. It takes a block of text as input and works out the proportion
             of characters within the text according to a chosen order. For example, an order of 2 means the program looks
             at pairs of letters, an order of 3 means triplets of letters, and so on.
-            <p>The software can regurgitate random
+            <p className="text-justify text-secondary mt-1" >The software can regurgitate random
               text that is controlled by the proportion of characters. The results can be quite surprising. 0 order produces
               random text based on the proportion of letters within the input text</p> </p>
 
