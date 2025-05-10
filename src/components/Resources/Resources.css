@@ -1,4 +1,9 @@
 /* Banner Section */
+.body{
+  overflow: hidden;
+}
+
+
 .banner-resources {
   background: url('../../assets/banner.jpg');
   background-size: cover;
