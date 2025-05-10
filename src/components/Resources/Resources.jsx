@@ -11,7 +11,7 @@ import logo from '../../assets/footer-logo2.jpg'
 import { FaX, FaXTwitter } from 'react-icons/fa6';
 const Resources = () => {
   return (
-    <>
+    <div className="body">
       <div className="position-relative bg-dark banner-resources">
         <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
           <h6 className="fw-bold banner-heading">Resources</h6>
@@ -374,7 +374,7 @@ const Resources = () => {
 </footer>
 
 
-    </>
+    </div>
 
   );
 }
