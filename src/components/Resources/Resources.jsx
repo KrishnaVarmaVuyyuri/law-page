@@ -208,8 +208,8 @@ const Resources = () => {
                 </h6>
                 <p className="text-white mb-3 fs-4 fw-semi text-justify">Find Out how much demand<br/>There is in your geographical<br/>area</p>
                 
-                  <button className="btn btn-danger rounded" type="submit">
-                   <p className="text-white mb-3 fs-4 fw-semi text-center">Book a Free Consultation</p>
+                  <button className="btn btn-danger rounded" type="submit" >Book a Free Consultation
+                   
                   </button>
                 
               </div>
