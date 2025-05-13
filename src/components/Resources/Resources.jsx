@@ -112,31 +112,38 @@ const Resources = () => {
   <div className="row align-items-center justify-content-center">
     
     {/* Left Column: Title */}
-    <div className="col-md-6 col-sm-12 text-md-start text-center mb-4 mb-md-0">
-      <h3 className="fw-semi fs-2">Topics Covered in <br />the Academy</h3>
+    <div className="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
+      <h3 className="fw-semi fs-2">Topics Covered in <br className="d-none d-md-inline" />the Academy</h3>
     </div>
 
-    {/* Right Column: 2x2 Grid with side-by-side layout */}
-    <div className="col-md-6 col-sm-12">
-      <div className="row g-4 ">
-        <div className="col-md-6 col-sm-12 d-flex align-items-center gap-3">
-          <FaCogs size={30} />
-          <span className="fw-medium">Management</span>
+    {/* Right Column: Grid layout */}
+    <div className="col-12 col-md-6">
+      <div className="row row-cols-2 row-cols-sm-2 g-4">
+        <div className="col">
+          <div className="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-md-start gap-2">
+            <FaCogs size={30} className="text-dark mb-2 mb-sm-0" />
+            <span className="fw-medium text-center text-sm-start">Management</span>
+          </div>
         </div>
-        <div className="col-md-6 col-sm-12 d-flex align-items-center gap-3">
-          <FaUserTie size={30}  />
-          <span className="fw-medium">HR</span>
+        <div className="col">
+          <div className="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-md-start gap-2">
+            <FaUserTie size={30} className="text-dark mb-2 mb-sm-0" />
+            <span className="fw-medium text-center text-sm-start">HR</span>
+          </div>
         </div>
-        <div className="col-md-6 col-sm-12 d-flex align-items-center gap-3">
-          <FaBullhorn size={30} />
-          <span className="fw-medium">Marketing</span>
+        <div className="col">
+          <div className="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-md-start gap-2">
+            <FaBullhorn size={30} className="text-dark mb-2 mb-sm-0" />
+            <span className="fw-medium text-center text-sm-start">Marketing</span>
+          </div>
         </div>
-        <div className="col-md-6 col-sm-12 d-flex align-items-center gap-3">
-          <FaChartLine size={30}  />
-          <span className="fw-medium">Sales</span>
+        <div className="col">
+          <div className="d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-md-start gap-2">
+            <FaChartLine size={30} className="text-dark mb-2 mb-sm-0" />
+            <span className="fw-medium text-center text-sm-start">Sales</span>
+          </div>
         </div>
       </div>
-      
     </div>
 
   </div>
@@ -236,7 +243,7 @@ const Resources = () => {
       </div>
 
       {/* Useful Links */}
-      <div className="col-6 col-md-3 mb-4">
+      <div className="col-12 col-md-3 mb-4">
         <h6 className="fw-bold mb-3">Useful Links</h6>
         <ul className="list-unstyled">
           <li><a href="#" className="text-white text-decoration-none">Home</a></li>
@@ -247,7 +254,7 @@ const Resources = () => {
       </div>
 
       {/* Our Portfolio */}
-      <div className="col-6 col-md-3 mb-4">
+      <div className="col-12 col-md-3 mb-4">
         <h6 className="fw-bold mb-3">Our Portfolio</h6>
         <ul className="list-unstyled">
           <li><a href="#" className="text-white text-decoration-none">Our Cases</a></li>
