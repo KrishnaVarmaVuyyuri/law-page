@@ -2,8 +2,6 @@
 .body{
   overflow: hidden;
 }
-
-
 .banner-resources {
   background: url('../../assets/banner.jpg');
   background-size: cover;
@@ -35,6 +33,18 @@
 .cta-box button {
   height: 48px;
 }
+/* For consistent icon styles */
+.academy-topic-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #212529;
+}
+.fw-medium {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+
 
 /* Available Resources Section */
 .available-resources-section {
