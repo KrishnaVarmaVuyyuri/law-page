@@ -2,16 +2,16 @@ import React from 'react';
 import './Resources.css'
 import profile from '../../assets/profile.jpg'
 import { IoIosSettings } from "react-icons/io";
-import { FaBookOpen, FaInstagram, FaInstagramSquare, FaLaptopCode, FaPodcast, FaTwitter } from 'react-icons/fa'
+import { FaBookOpen,  FaInstagramSquare, FaLaptopCode, FaPodcast, FaTwitter } from 'react-icons/fa'
 import { FaPhoneAlt, FaEnvelope, FaGlobe } from 'react-icons/fa';
-import { CiLocationOn } from "react-icons/ci";
+
 import { IoLocationSharp } from "react-icons/io5";
 import { FaCogs, FaUserTie, FaBullhorn, FaChartLine, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import logo from '../../assets/footer-logo2.jpg'
-import { FaX, FaXTwitter } from 'react-icons/fa6';
+import { FaXTwitter } from 'react-icons/fa6';
 const Resources = () => {
   return (
-    <div className="body">
+    <div className='body'>
       <div className="position-relative bg-dark banner-resources">
         <div className="position-absolute top-50 start-50 translate-middle text-center text-white">
           <h6 className="fw-bold banner-heading">Resources</h6>
@@ -32,7 +32,7 @@ const Resources = () => {
             <p className="text-muted fs-6 text-start">
               Sign up for our academy and you'll receive personalized emails and access to tools, tips, and videos all designed to grow and successfully manage your law firm.
             </p>
-            <div className="d-flex align-items-center mt-3">
+            <div className="d-flex align-items-center my-3">
               <img
                 src={profile}
                 alt="Academy"
@@ -106,44 +106,42 @@ const Resources = () => {
 
 
 
-      <div className="container my-5">
-        <div className="row align-items-center">
-          {/* Left Side: Centered Title */}
-          <div className="col-md-6 d-flex justify-content-left">
-            <h3 className="fw-semi fs-2 mb-3 text-start p-3">Topics Covered in the Academy</h3>
-          </div>
 
-          {/* Right Side: 2x2 Icon Grid */}
-          <div className="col-md-6">
-            <div className="row text-start g-5">
-              <div className="col-6 ">
-                <div className="d-flex align-items-center gap-3 ">
-                  <FaCogs size={40} className="custom-icon" />
-                  <span className="fs-5">Management</span>
-                </div>
-              </div>
-              <div className="col-6">
-                <div className="d-flex align-items-center gap-3">
-                  <FaUserTie size={40} className="custom-icon" />
-                  <span className="fs-5">HR</span>
-                </div>
-              </div>
-              <div className="col-6">
-                <div className="d-flex align-items-center gap-3">
-                  <FaBullhorn size={40} className="custom-icon" />
-                  <span className="fs-5">Marketing</span>
-                </div>
-              </div>
-              <div className="col-6">
-                <div className="d-flex align-items-center gap-3">
-                  <FaChartLine size={40} className="custom-icon" />
-                  <span className="fs-5">Sales</span>
-                </div>
-              </div>
-            </div>
-          </div>
+
+<div className="container my-5">
+  <div className="row align-items-center justify-content-center">
+    
+    {/* Left Column: Title */}
+    <div className="col-md-6 col-sm-12 text-md-start text-center mb-4 mb-md-0">
+      <h3 className="fw-semi fs-2">Topics Covered in <br />the Academy</h3>
+    </div>
+
+    {/* Right Column: 2x2 Grid with side-by-side layout */}
+    <div className="col-md-6 col-sm-12">
+      <div className="row g-4 ">
+        <div className="col-md-6 col-sm-12 d-flex align-items-center gap-3">
+          <FaCogs size={30} />
+          <span className="fw-medium">Management</span>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center gap-3">
+          <FaUserTie size={30}  />
+          <span className="fw-medium">HR</span>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center gap-3">
+          <FaBullhorn size={30} />
+          <span className="fw-medium">Marketing</span>
+        </div>
+        <div className="col-md-6 col-sm-12 d-flex align-items-center gap-3">
+          <FaChartLine size={30}  />
+          <span className="fw-medium">Sales</span>
         </div>
       </div>
+      
+    </div>
+
+  </div>
+</div>
+
 
 
       <div className="">
@@ -224,112 +222,21 @@ const Resources = () => {
         </div>
 
       </div>
-
-
-
-
-
-
-{/* <footer className="footer bg-black text-white pt-5 pb-3 mt-5">
-
-    <div className="row  ">
-
-     
-      <div className="col-md-3 mb-4">
-  <img
-    src={logo}
-    alt="Astonish Laws Logo"
-    className="img-fluid"
-    style={{ maxWidth: '150px' }}
-  />
-</div>
-
-
-     
-      <div className="col-md-3 mb-4">
-        <h6 className="fw-bold mb-3 fs-4">Useful Links</h6>
-        <ul className="list-unstyled">
-          <li><a href="#" className="text-white text-decoration-none">Home</a></li>
-          <li><a href="#" className="text-white text-decoration-none">About Us</a></li>
-          <li><a href="#" className="text-white text-decoration-none">Our Blogs</a></li>
-        </ul>
-      </div>
-
-    
-      <div className="col-md-3 mb-4">
-        <h6 className="fw-bold mb-3 fs-4">Our Portfolio</h6>
-        <ul className="list-unstyled">
-          <li><a href="#" className="text-white text-decoration-none">Our Clients</a></li>
-          <li><a href="#" className="text-white text-decoration-none">Case Studies</a></li>
-          <li><a href="#" className="text-white text-decoration-none">Success</a></li>
-        </ul>
-      </div>
-
-
-<div className="col-md-3 mb-4">
-  <h6 className="fw-bold mb-3 fs-4">Contact Information</h6>
-    <ul className="list-unstyled">
-      
-  <div className="d-flex align-items-center mb-2">
-    <IoLocationSharp className="me-2"/>
-    
-    <span>121 Street, Vijayawada, AP</span>
-  </div>
-
-  <div className="d-flex align-items-center mb-2">
-    <FaPhoneAlt className="me-2" />
-    <span>+91-69944-9223</span>
-  </div>
-
-  <div className="d-flex align-items-center mb-2">
-    <FaEnvelope className="me-2" />
-    <span>info@astonish.com</span>
-  </div>
-
-  <div className="d-flex align-items-center">
-    <FaGlobe className="me-2" />
-    <span>www.astonishlaw.com</span>
-  </div>
-  </ul>
-</div>
-<hr style={{ borderTop: '4px solid white' }} />
-
-    </div>
-
-    
-
-    <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mx-5 mt-3">
-      <p className="mb-0 text-white">
-        © 2025 Powered by <span className="text-purple">DigiSphere</span>
-      </p>
-      <div className="d-flex gap-3 mt-3 mt-md-0">
-        <FaFacebookF className="text-white" />
-        <FaLinkedinIn className="text-white" />
-        <FaInstagramSquare className="text-white" />
-        <FaXTwitter className="text-white" />
-      </div>
-    </div>
-
-</footer> */}
-
-
-
-<footer className="footer bg-black text-white pt-5 pb-3 mt-5">
+    <footer className="footer bg-black text-white pt-5 pb-3 mt-5">
   <div className="container">
-    <div className="row text-center text-md-start align-items-start">
-
+    <div className="row text-center text-md-start">
       {/* Logo Column */}
-      <div className="col-md-3 mb-4">
+      <div className="col-12 col-md-3 mb-4">
         <img
           src={logo}
           alt="Astonish Logo"
-          className="img-fluid d-block mx-md-0 mx-auto"
+          className="img-fluid d-block mx-auto mx-md-0"
           style={{ maxWidth: '130px' }}
         />
       </div>
 
       {/* Useful Links */}
-      <div className="col-md-3 mb-4">
+      <div className="col-6 col-md-3 mb-4">
         <h6 className="fw-bold mb-3">Useful Links</h6>
         <ul className="list-unstyled">
           <li><a href="#" className="text-white text-decoration-none">Home</a></li>
@@ -340,7 +247,7 @@ const Resources = () => {
       </div>
 
       {/* Our Portfolio */}
-      <div className="col-md-3 mb-4">
+      <div className="col-6 col-md-3 mb-4">
         <h6 className="fw-bold mb-3">Our Portfolio</h6>
         <ul className="list-unstyled">
           <li><a href="#" className="text-white text-decoration-none">Our Cases</a></li>
@@ -351,19 +258,28 @@ const Resources = () => {
       </div>
 
       {/* Contact Info */}
-      <div className="col-md-3 mb-4">
+      <div className="col-12 col-md-3 mb-4">
         <h6 className="fw-bold mb-3">Contact Information</h6>
-        <div className="contact-icon"><IoLocationSharp className="uniform-icon me-2" /><span>123 Street, Vijayawada, AP</span></div>
-        <div className="contact-icon"><FaPhoneAlt className="uniform-icon me-2" /><span>+91-69944-9222</span></div>
-        <div className="contact-icon"><FaEnvelope className="uniform-icon me-2" /><span>info@example.com</span></div>
+        <div className="d-flex align-items-center justify-content-center justify-content-md-start mb-2">
+          <IoLocationSharp className="uniform-icon me-2" />
+          <span>123 Street, Vijayawada, AP</span>
+        </div>
+        <div className="d-flex align-items-center justify-content-center justify-content-md-start mb-2">
+          <FaPhoneAlt className="uniform-icon me-2" />
+          <span>+91-69944-9222</span>
+        </div>
+        <div className="d-flex align-items-center justify-content-center justify-content-md-start mb-2">
+          <FaEnvelope className="uniform-icon me-2" />
+          <span>info@example.com</span>
+        </div>
       </div>
     </div>
 
     {/* Bottom Bar */}
-    <hr className="footer-line my-5" />
+    <hr className="footer-line my-4" />
     <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
-      <p className="mb-0 text-white">© 2025 Powered by <span className="text-purple">DigitSphere</span></p>
-      <div className="d-flex gap-3 mt-3 mt-md-0">
+      <p className="mb-3 mb-md-0 text-center text-md-start">© 2025 Powered by <span className="text-purple">DigitSphere</span></p>
+      <div className="d-flex gap-3 justify-content-center">
         <FaFacebookF className="uniform-icon text-white" />
         <FaInstagramSquare className="uniform-icon text-white" />
         <FaXTwitter className="uniform-icon text-white" />
@@ -372,6 +288,14 @@ const Resources = () => {
     </div>
   </div>
 </footer>
+
+
+
+
+
+
+
+
 
 
     </div>
