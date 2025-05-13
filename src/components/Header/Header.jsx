@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../assets/law-logo.png';  // Ensure the path is correct
+import logo from '../../assets/law-logo.png';  
 import './Header.css';
 
 const Header = () => {
@@ -11,6 +11,18 @@ const Header = () => {
         <Link className="navbar-brand ms-4" to="/">
           <img src={logo} alt="Logo" width="120" height="auto" />
         </Link>
+
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button> 
 
         {/* Navbar links */}
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
